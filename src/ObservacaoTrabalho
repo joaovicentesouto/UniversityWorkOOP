@@ -1,0 +1,25 @@
+
+OBSERVAÇÕES GERAIS:
+1. Para completar a matriz:
+	
+	a.  Utilizando um algoritmo para gerar números aleatótios que aprendi na
+	aula de matemática discreta, fiz um método para completar a matriz com
+	nomes aleatórios, porém ele tem uma limitação na quantidade. Com matrizes
+	muito grandes, começam a aparecer nomes repetidos.
+	
+	b.  Para o nome das escolas e hospitais, será Hospital (quantidade de hospitais até então).
+
+2. Criei métodos a mais para realizar diversos testes.
+
+3. Alguns métodos como procurar por um tipo em determinado quadrante eu generalizei,
+acho que fica um código mais inteligente assim porque tinha 3 métodos que faziam o mesmo,
+só procuravam tipos diferentes em locais diferentes.
+
+4. Também generalizei o método para procurar a quantidade de pessoas com
+idade > ou = a 30 para uma idade que o usuario quer.
+
+5. Eu tentei separar o máximo os métodos, colocando cada método em sua classe
+que faça sentido existir. (Por isso alguns métodos existem camadas).
+Porque eu não quis ter que pegar os getters e retirar todos os dados pra cidade.
+Assim os métodos ocorriam dentro de cada elemento, economizando espaços desnecessários de variaveis na cidade.
+		
